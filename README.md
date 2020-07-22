@@ -14,6 +14,14 @@ than use the public ip address to access the website from any device in the same
 
 ## Features to be implemented
 
-- One html page with all the info
-- Responsive design layout
+- Mobile first aproach / Responsive desigm
 - Parallax and fade animations
+- Personal video presentation
+- Resume download
+- Home Page
+- Work Page
+- About Page
+
+## Inspiration
+
+- <https://www.billchien.net/>
