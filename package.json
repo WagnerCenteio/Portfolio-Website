@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WagnerCenteio/portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WagnerCenteio/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/WagnerCenteio/portfolio-website#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
