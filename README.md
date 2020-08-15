@@ -15,12 +15,12 @@ than use the public ip address to access the website from any device in the same
 ## Features to be implemented
 
 - Mobile first aproach / Responsive desigm
-- Parallax and fade animations
-- Personal video presentation
-- Resume download
 - Home Page
 - Work Page
 - About Page
+- Personal video presentation
+- Resume download
+- Parallax and fade animations
 
 ## Inspiration
 

@@ -1,0 +1,23 @@
+Mobile first aproach / Responsive desigm :
+    ☐ create the layout 
+    ☐ navigation menu
+    ☐ setup media queries and breakpoints on main devices : (phone, tablet and pc)
+
+Home Page:
+    ☐ short description of myself
+    ☐ short description of work 
+    ☐ short description of skills
+    ☐ links to social media 
+
+Personal video presentation:
+    ☐ setup video controls
+    ☐ full screen
+
+Resume Download:
+    ☐ link point to the file
+    ☐ configure it to open in new window
+
+Parallax and fade animations:
+    ☐ search for a good library of parallax  
+    ☐ apply fade animation (css and js) transition of the html pages
+    
