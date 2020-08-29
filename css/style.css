@@ -1,0 +1,31 @@
+/* color pallete
+rgba(255,228,51,0)
+#333
+rgba(255,228,51,.9)
+#ffe433
+*/
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* nav styles goes here */
+a{
+    display:inline-block;
+    text-decoration:none;
+    margin: 1%;
+    padding: 3%;
+}
+
+/* body styles goes here */
+
+body{
+    margin: 1%;
+}
+p{
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+
+/* articles styles goes here */
