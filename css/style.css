@@ -8,24 +8,85 @@ rgba(255,228,51,.9)
 *{
     margin: 0px;
     padding:0px;
+    background: #000;
+    color:white;
 }
 /* nav styles goes here */
-a{
+#navmenu a{
     display:inline-block;
     text-decoration:none;
-    margin: 1%;
-    padding: 3%;
+    margin: 1% 5%;
+    padding: 2%;
+    color:#fff;
+}
+#navmenu{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+}
+.yellow{
+    color:#ffe433;
 }
 
 /* body styles goes here */
-
 body{
+    margin-top: 10%;
+    font-family: Faktum,sans-serif;
+}
+main, footer{
     margin: 1%;
 }
 p{
     padding-bottom: 1%;
-    text-align: justify;
+    text-align: left;
 }
 
 
 /* articles styles goes here */
+h1{
+    font-size:5em;
+}
+p{
+    font-size: 2em;
+}
+
+.hero-bg{
+    text-align: center;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 50px;
+    position: relative;
+}
+
+.hero-bg img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+transform: translateY(115px);
+border-bottom: 0px solid white;
+border: 15px solid white;
+}
+
+.article-content{
+    padding-top: 50px;
+}
+.article-content h1{
+    font-size: 2.5em;
+}
+/* media queries goes here */
+@media only screen and (max-width:500px){
+   #navmenu a{
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+    body{
+        margin-top:40%;
+    }
+   img{
+       width: 90%;
+    }
+}

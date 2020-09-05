@@ -1,0 +1,16 @@
+div.imggallery{
+   margin: 2%;
+}
+div.imggallery a{
+    display: block;
+ }  
+div.imggallery img{
+    box-sizing: border-box;
+    max-width: 60%;
+    border: 5px solid #333;
+}
+@media only screen and (max-width:500px){
+    img{
+        max-width: 90%;
+    }
+}
