@@ -90,3 +90,34 @@ p {
 		width: 90%;
 	}
 }
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 10px;
+	left: 50px;
+	height: 800px;
+	width: 1200px;
+	z-index: 1000;
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	color: black;
+}
+
+.modal div,
+.modal h3 {
+	background-color: white;
+	color: black;
+}
+
+.video-link {
+	cursor: pointer;
+}
+
+.modal-header .title {
+}
+
+.modal-header .btn-close {
+	cursor: pointer;
+}

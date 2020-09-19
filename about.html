@@ -25,6 +25,7 @@
 				</div>
 				<div>
 					<h1>MEET WAGNER AUGUSTO</h1>
+					<a class="video-link">open video presentation</a>
 					<p>
 						Lorem ipsum Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
 						posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est
@@ -72,7 +73,21 @@
 				</div>
 			</article>
 		</main>
+		<div class="modal">
+			<div class="modal-header">
+				<h3 class="title">Video presentation</h3>
+				<button class="btn-close">close</button>
+			</div>
+			<div class="modal-content">
+				<video width="320" height="240" controls>
+					<source src="movie.mp4" type="video/mp4" />
+					<source src="movie.ogg" type="video/ogg" />
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
 		<!-- Scripts -->
+		<script src="js/index.js"></script>
 		<script src="./js/rellax.js"></script>
 		<script>
 			var rellax = new Rellax('.rellax', { center: true });
