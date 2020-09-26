@@ -46,10 +46,10 @@ p {
 
 /* articles styles goes here */
 h1 {
-	font-size: 5em;
+	font-size: 2em;
 }
 p {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .hero-bg {
@@ -70,8 +70,8 @@ p {
 	border: 15px solid white;
 }
 
-.article-content {
-	padding-top: 50px;
+article {
+	padding: 10px;
 }
 .article-content h1 {
 	font-size: 2.5em;
@@ -86,8 +86,17 @@ p {
 	body {
 		margin-top: 40%;
 	}
-	img {
-		width: 90%;
+}
+
+.bio {
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+	.bio {
+		display: flex;
+		flex-direction: row;
 	}
 }
 

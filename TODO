@@ -22,6 +22,6 @@ Parallax and fade animations:
     ☐ apply fade animation (css and js) transition of the html pages
     
 About page:
-    ☐ write a bio section
-    ☐ image tag and align with bio section
-    ☐ optional video tag in a model opened by a click in the bio section
+    ✔ write a bio section @done(20-09-26 09:21)
+    ✔ image tag and align with bio section @done(20-09-26 09:21)
+    ✔ optional video tag in a model opened by a click in the bio section @done(20-09-26 10:03)
