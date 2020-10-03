@@ -11,6 +11,7 @@ rgba(255,228,51,.9)
 	background: #000;
 	color: white;
 }
+
 /* nav styles goes here */
 #navmenu a {
 	display: inline-block;
@@ -33,7 +34,7 @@ rgba(255,228,51,.9)
 /* body styles goes here */
 body {
 	margin-top: 10%;
-	font-family: Faktum, sans-serif;
+	font-family: calibri, sans-serif;
 }
 main,
 footer {
@@ -41,15 +42,15 @@ footer {
 }
 p {
 	padding-bottom: 1%;
-	text-align: left;
+	text-align: justify;
 }
 
 /* articles styles goes here */
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 }
 p {
-	font-size: 2em;
+	font-size: 1.3em;
 }
 
 .hero-bg {
