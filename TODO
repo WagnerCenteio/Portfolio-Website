@@ -10,7 +10,7 @@ Home Page:
     ☐ links to social media 
 
 Personal video presentation:
-    ☐ setup video controls
+    ✔ setup video controls @done(20-10-03 10:16)
     ☐ full screen
 
 Resume Download:
@@ -18,7 +18,7 @@ Resume Download:
     ☐ configure it to open in new window
 
 Parallax and fade animations:
-    ☐ search for a good library of parallax  
+    ✔ search for a good library of parallax @done(20-10-03 10:15)
     ☐ apply fade animation (css and js) transition of the html pages
     
 About page:
