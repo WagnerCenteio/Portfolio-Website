@@ -1,0 +1,55 @@
+.video-link {
+	cursor: pointer;
+}
+
+.modal-header {
+	z-index: 999999;
+	position: absolute;
+	top: 0;
+}
+
+.modal-header .title {
+	left: 0;
+	display: inline;
+}
+
+.modal-header .btn-close {
+	cursor: pointer;
+	right: 0;
+	float: right;
+}
+
+.modal-content {
+	position: absolute;
+	z-index: 99999;
+	top: 0;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 10px;
+	left: 100px;
+	height: 800px;
+	width: 1200px;
+	z-index: 1000;
+	background-color: white;
+	/* margin: 10px; */
+	color: black;
+}
+
+.modal div,
+.modal h3 {
+	background-color: white;
+	color: black;
+}
+
+.bio {
+	display: flex;
+	flex-direction: column;
+}

@@ -103,7 +103,7 @@ article {
 
 .modal {
 	display: none;
-	position: relative;
+	position: fixed;
 	top: 10px;
 	left: 100px;
 	height: 800px;
@@ -127,12 +127,14 @@ article {
 .modal-header {
 	z-index: 999999;
 	position: absolute;
+	width: 100%;
 	top: 0;
 }
 
 .modal-header .title {
 	left: 0;
 	display: inline;
+	background-color: #ffe433;
 }
 
 .modal-header .btn-close {
@@ -145,6 +147,9 @@ article {
 	position: absolute;
 	z-index: 99999;
 	top: 0;
+	background-color: blueviolet;
+	height: 100%;
+	width: 100%;
 }
 
 video {
