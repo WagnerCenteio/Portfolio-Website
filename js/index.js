@@ -11,3 +11,11 @@ function hideMOdal() {
 document.querySelector('.video-link').addEventListener('click', showModal);
 
 document.querySelector('.btn-close').addEventListener('click', hideMOdal);
+function eventhandlers(){
+	document.onclick = function(){
+		alert("Hello World of Java Script");
+	}
+}
+window.onload(){
+	eventhandlers();
+}

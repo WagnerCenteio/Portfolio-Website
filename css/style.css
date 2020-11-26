@@ -8,151 +8,112 @@ rgba(255,228,51,.9)
 * {
 	margin: 0px;
 	padding: 0px;
-	background: #000;
-	color: white;
+	color: #ffffff;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	scroll-behavior: smooth;
 }
-
-/* nav styles goes here */
-#navmenu a {
-	display: inline-block;
-	text-decoration: none;
-	margin: 1% 5%;
-	padding: 2%;
-	color: #fff;
+body{
+	background: #222;
 }
-#navmenu {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 999;
+header{
+	background-image: url("assets/images/avatar2.jpg");
+	/* height:700px; */
+	background-position:cover;
 }
-.yellow {
-	color: #ffe433;
+.yellow{
+	color:#9c860b;
 }
-
-/* body styles goes here */
-body {
-	margin-top: 10%;
-	font-family: calibri, sans-serif;
-}
-main,
-footer {
-	margin: 1%;
-}
-p {
-	padding-bottom: 1%;
-	text-align: justify;
-}
-
-/* articles styles goes here */
-h1 {
-	font-size: 2em;
-}
-p {
-	font-size: 1.5em;
-}
-
-.hero-bg {
+/* navigation styles goes here */
+#navmenu{
 	text-align: center;
-	background-color: white;
-	margin-left: -10px;
-	margin-right: -10px;
-	padding: 50px;
-	position: relative;
-}
-
-.hero-bg img {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	transform: translateY(115px);
-	border-bottom: 0px solid white;
-	border: 15px solid white;
-}
-
-article {
-	padding: 10px;
-}
-.article-content h1 {
-	font-size: 2.5em;
-}
-/* media queries goes here */
-@media only screen and (max-width: 500px) {
-	#navmenu a {
-		display: block;
-		margin-top: 0;
-		text-align: center;
-	}
-	body {
-		margin-top: 40%;
-	}
-}
-
-.bio {
-	display: flex;
-	flex-direction: column;
-}
-
-@media only screen and (min-width: 500px) {
-	.bio {
-		display: flex;
-		flex-direction: row;
-	}
-}
-
-.modal {
-	display: none;
 	position: fixed;
-	top: 10px;
-	left: 100px;
-	height: 800px;
-	width: 1200px;
-	z-index: 1000;
-	background-color: white;
-	/* margin: 10px; */
-	color: black;
+	right:0;
+	left:0;
+	z-index:99999999;
+}
+#navmenu a{
+	/* color:#fff; */
+	text-decoration:none;
+	display: block;
+	padding: 2%;
+	transition: background-color .3s linear;
+	animation: textfill 5s ease-in-out 2s infinite alternate;
+}
+/* @keyframes textfill{
+	0%{color: red;}
+	15%{color: orange;}
+	30%{color: yellow}
+	45%{color:green;}
+	60%{color: blue;}
+	75%{color: indigo;}
+	90%{color:violet;}
+	100%{color:#ffe433;}
+} */
+
+#navmenu a:active, #navmenu a:hover{
+	color:#9c860b;
+}
+#navmenu a:hover{
+	background-color:#9c860b;
+	color:#fff;
+	opacity:.5;
 }
 
-.modal div,
-.modal h3 {
-	background-color: white;
-	color: black;
+/* header styles */
+.flex{
+	display: block;
+}
+.avatar{
+	animation: flash 3s ease-out;
+	transform: translate(3em 0em);
+	overflow: hidden;
 }
 
-.video-link {
-	cursor: pointer;
+@keyframes flash{
+	/* This gives a flashlike glow of the avatar onload  */
+	from{opacity:.1}
+	to{opacity:1}
+}
+.article-content, .work-content{
+	padding: 3em;
+}
+.work-content{
+	background-color:#000;
+	z-index:11;
+}
+.content__p{
+	margin-bottom:1em;
+}
+.call-to-action{
+	transition: background-color .3s ease-in-out;
+	text-decoration:none;
+	transition: border 1s ease-in-out;
+}
+.call-to-action:hover{
+	border-bottom: 2px solid #ffe433;
+	opacity:.5;
 }
 
-.modal-header {
-	z-index: 999999;
-	position: absolute;
-	width: 100%;
-	top: 0;
+/* web view responsiveness is declared here */
+@media only screen and (min-width:720px){
+	#navmenu a{
+		display:inline-block;
+	}
+	.flex{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.flex > div{
+		align-content: space-around;
+	}
+	.avatar{
+		transform: translate(0em, 3em);
+	}
+	.article-content{
+		transform:translateY(8em);
+	}
+	.work-content{
+		transform:translateY(-.5em);
+		
 }
 
-.modal-header .title {
-	left: 0;
-	display: inline;
-	background-color: #ffe433;
-}
-
-.modal-header .btn-close {
-	cursor: pointer;
-	right: 0;
-	float: right;
-}
-
-.modal-content {
-	position: absolute;
-	z-index: 99999;
-	top: 0;
-	background-color: blueviolet;
-	height: 100%;
-	width: 100%;
-}
-
-video {
-	width: 100%;
-	height: 100%;
-}
