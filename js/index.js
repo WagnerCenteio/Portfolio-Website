@@ -16,6 +16,6 @@ function eventhandlers(){
 		alert("Hello World of Java Script");
 	}
 }
-window.onload(){
+window.onload()={
 	eventhandlers();
 }
